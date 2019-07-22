@@ -43,9 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class\Customer.cs" />
-    <Compile Include="Class\DVD.cs" />
-    <Compile Include="Class\Rental.cs" />
+    <Compile Include="Data\DVDData.cs" />
+    <Compile Include="Data\RentalData.cs" />
+    <Compile Include="Entities\Customer.cs" />
+    <Compile Include="Entities\DVD.cs" />
+    <Compile Include="Entities\Rental.cs" />
     <Compile Include="Data\CustomerData.cs" />
     <Compile Include="DVDManager.cs" />
     <Compile Include="Program.cs" />
